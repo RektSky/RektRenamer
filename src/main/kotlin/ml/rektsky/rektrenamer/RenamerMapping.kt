@@ -78,6 +78,8 @@ class RenamerMapping {
             if (visitor(parent)) {
                 return true
             }
+        }
+        for (parent in getParents(internalName)) {
             if (visitAllParents(parent, visitor)) {
                 return true
             }

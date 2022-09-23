@@ -1,7 +1,6 @@
 package ml.rektsky.rektrenamer.member.impl
 
 import ml.rektsky.rektrenamer.ClassRepo
-import ml.rektsky.rektrenamer.data.ClassInfo
 import ml.rektsky.rektrenamer.data.FieldInfo
 import ml.rektsky.rektrenamer.data.MethodInfo
 import ml.rektsky.rektrenamer.inheritance.InheritanceProvider
